@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
-
+import os
 import pygame
 
 class Kate(pygame.sprite.Sprite):
+
     def __init__(self, position):
         self.sheet = pygame.image.load('kate.png')
         self.sheet.set_clip(pygame.Rect(0, 0, 52, 76))

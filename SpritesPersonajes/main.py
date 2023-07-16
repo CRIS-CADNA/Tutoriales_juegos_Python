@@ -26,6 +26,6 @@ while game_over == False:
     screen.blit(player.image, player.rect)
 
     pygame.display.flip()
-    clock.tick(20)
+    clock.tick(100)
 
 pygame.quit ()
